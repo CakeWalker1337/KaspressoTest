@@ -16,9 +16,7 @@ class MainTest : TestCase() {
     fun openSecondActivityTest() {
 
         before {
-            activityTestRule.launchActivity(null)
         }.after {
-
         }.run {
 
             step("step 1: pushing button") {
